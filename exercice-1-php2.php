@@ -6,9 +6,9 @@
 
 <?php
 $text = "Mon texte en paramètre";
-$rayan = "rayan la street";
+
  echo convertirMajRouge($text);
- echo convertirMajRouge($rayan);
+
 function convertirMajRouge($text) {
 
     $maj = mb_strtoupper($text); // convertir en maj
