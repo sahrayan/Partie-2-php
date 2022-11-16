@@ -3,9 +3,9 @@
 $nomsInput = array("Nom","Prénom","Ville");
 echo afficherInput($nomsInput);
 function afficherInput($nomsInput){
-    foreach($nomsInput as $utilisateur){
-        $resultat.= "<label for='$utilisateur'><br>$utilisateur</label><br>
-        <input type='text' name= $utilisateur<br>";
+    foreach($nomsInput as $name){
+        $resultat.= "<label for='$name'><br>$name</label><br>
+        <input type='text' name= $name<br>";
     }
     return $resultat;
 }
