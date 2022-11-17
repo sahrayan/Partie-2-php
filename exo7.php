@@ -1,6 +1,5 @@
 <?php
-$elements = array("Monsieur","Madame","Mademoiselle");
-$zeub = array("rayan","toi","moi");
+$elements = array("choix 1","choix 2","choix 3");
 alimenterListeDeroulante($elements);
 
 function alimenterListeDeroulante($elements){
